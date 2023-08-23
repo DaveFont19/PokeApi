@@ -1,0 +1,154 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+:root{
+  --color-fire: #ff7402;
+	--color-grass: #9bcc50;
+	--color-steel: #9eb7b8;
+	--color-water: #4592c4;
+	--color-psychic: #f366b9;
+	--color-ground: #ab9842;
+	--color-ice: #51c4e7;
+	--color-flying: #3dc7ef;
+	--color-ghost: #4d5b64;
+	--color-normal: #a4acaf;
+	--color-poison: #7e0058;
+	--color-rock: #a38c21;
+	--color-fighting: #d56723;
+	--color-dark: #707070;
+	--color-bug: #729f3f;
+	--color-dragon: linear-gradient(180deg, #53a4cf 50%, #f16e57 50%);
+	--color-electric: #bba909;
+	--color-fairy: #fdb9e9;
+	--color-shadow: #7b62a3;
+	--color-unknow: #757575;
+
+	--color-primary: #006d77;
+	--color-primary-hover: #83c5be;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Columnas autoajustables */
+  grid-gap: 20px;
+}
+.water {
+	background-color: var(--color-water);
+}
+
+.grass {
+	background-color: var(--color-grass);
+}
+
+.poison {
+	background-color: var(--color-poison);
+}
+
+.fire {
+	background-color: var(--color-fire);
+}
+
+.bug {
+	background-color: var(--color-bug);
+}
+
+.dragon {
+	background: var(--color-dragon);
+}
+
+.flying {
+	background-color: var(--color-flying);
+}
+
+.ground {
+	background-color: var(--color-ground);
+}
+
+.steel {
+	background-color: var(--color-steel);
+}
+
+.psychic {
+	background-color: var(--color-psychic);
+}
+
+.ice {
+	background-color: var(--color-ice);
+}
+
+.ghost {
+	background-color: var(--color-ghost);
+}
+
+.normal {
+	background-color: var(--color-normal);
+}
+
+.rock {
+	background-color: var(--color-rock);
+}
+
+.electric {
+	background-color: var(--color-electric);
+}
+
+.fighting {
+	background-color: var(--color-fighting);
+}
+
+.fairy {
+	background-color: var(--color-fairy);
+}
+
+.dark {
+	background-color: var(--color-dark);
+}
+#hover{
+	cursor: pointer;
+}
+#type{
+	font-size: 2rem;
+}
+#imgPokemon{
+	align-self: center ;
+	padding-left: 10rem;
+}
